@@ -2,7 +2,7 @@
 :imagesdir: ../../images
 
 [id="overview-architecture"]
-= Overview of the architectures
+= Overview of the architecture
 
 The following figure provides a schematic diagram overview of the complete solution including both components and data flows.
 
