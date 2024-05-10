@@ -13,7 +13,13 @@ Use case::
 * Use a GitOps approach to manage hybrid and multi-cloud deployments across both public and private clouds.
 * Enable cross-cluster governance and application lifecycle management.
 * Securely manage secrets across the deployment.
-+
+
+Benefits::
+
+* Unify management across cloud environments.
+* Dynamic infrastructure security.
+* Infrastructural continuous delivery best practices.
+
 [NOTE]
 ====
 Based on the requirements of a specific implementation, certain details might differ. However, all validated patterns that are based on a portfolio architecture, generalize one or more successful deployments of a use case.
@@ -22,13 +28,9 @@ Based on the requirements of a specific implementation, certain details might di
 [id="about-solution"]
 == About the solution
 
-This architecture covers hybrid and multi-cloud management with GitOps as shown in following figure. At a high level this requires a management hub, for DevOps and GitOps, and infrastructure that extends to one or more managed clusters running on private or public clouds. The automated infrastructure-as-code approach can manage the versioning of components and deploy according to the infrastructure-as-code configuration.
+This architecture covers hybrid and multi-cloud management with GitOps as shown in following figure. At a high level this requires a management hub, for DevOps and GitOps, and infrastructure that extends to one or more managed clusters running on private or public clouds.
 
-Benefits of Hybrid Multicloud management with GitOps:
-
-* Unify management across cloud environments.
-* Dynamic infrastructure security.
-* Infrastructural continuous delivery best practices.
+The automated infrastructure-as-code approach can deploy and manage components based on versioned configuration, stored in a source control system.
 
 //figure 1 originally
 .Overview of the solution including the business drivers, management hub, and the clusters under management
