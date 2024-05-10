@@ -64,4 +64,4 @@ Provides an enterprise framework for building and operating IT automation at sca
 Hashicorp Vault::
 Provides a secure centralized store for dynamic infrastructure and applications across clusters, including over low-trust networks between clouds and data centers.
 
-This solution also uses a variety of _observability tools_ including the Prometheus monitoring and Grafana dashboard that are integrated with OpenShift as well as components of the Observatorium meta-project which includes Thanos and the Loki API.
+This solution also uses a variety of _observability tools_. It uses the Prometheus monitoring and Grafana dashboard features that are part of OpenShift. It also uses components of the Observatorium meta-project that includes Thanos and the Loki API.
