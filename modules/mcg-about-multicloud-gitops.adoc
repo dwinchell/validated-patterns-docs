@@ -2,7 +2,7 @@
 :imagesdir: ../../images
 
 [id="about-multicloud-gitops-pattern"]
-= About the Multicloud GitOps Pattern
+= About the Multicloud GitOps pattern
 
 Organizations are aiming to develop, deploy, and operate applications on an open hybrid cloud in a stable, simple, and secure way. This hybrid strategy includes multi-cloud deployments where workloads might be running on multiple clusters and on multiple clouds, private or public. This strategy requires an infrastructure-as-code approach: GitOps.
 
