@@ -32,7 +32,7 @@ This architecture covers hybrid and multi-cloud management with GitOps as shown 
 
 At a high level the architecture includes a management hub for DevOps and GitOps, plus infrastructure that extends to one or more managed clusters running on private or public clouds.
 
-The automated infrastructure-as-code approach can deploy and manage components based on versioned configuration, stored in a source control system.
+This automated infrastructure-as-code approach can deploy and manage components based on versioned configuration, stored in a source control system.
 
 //figure 1 originally
 .Overview of the solution including the business drivers, management hub, and the clusters under management
